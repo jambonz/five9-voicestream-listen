@@ -1,0 +1,23 @@
+{
+  "name": "five9-voicestream-listen",
+  "version": "0.0.1",
+  "description": "jambonz webhook application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.3.25",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "express-basic-auth": "^1.2.1",
+    "pino": "^8.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-plugin-promise": "^6.0.1"
+  }
+}
